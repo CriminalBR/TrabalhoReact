@@ -11,7 +11,7 @@ export const Layout = () => {
 
     return (
         <div className="container">
-            {/* Navbar simples do Bootstrap */}
+        
             <nav className="navbar navbar-expand-lg navbar-light bg-light mb-3">
                 <div className="container-fluid">
                     <span className="navbar-brand">Painel</span>
@@ -34,7 +34,6 @@ export const Layout = () => {
                 </div>
             </nav>
 
-            {/* O Outlet renderiza a rota filha (Clientes, Usuarios, etc.) */}
             <Outlet />
         </div>
     );

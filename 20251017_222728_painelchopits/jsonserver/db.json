@@ -6,11 +6,29 @@
       "nome": "Fabricio",
       "permissoes": "admin",
       "id": 9
-
-      
+    },
+    {
+      "email": "wallace.gabriel.bog@gmail.com",
+      "password": "$2a$10$oepIxGGxuTjWdavLLvcdX.d1XmMgg8.EvHjhPnhZ2ltjRzWCxMUqG",
+      "nome": "Wallace",
+      "permissoes": "admin",
+      "id": 10
     }
-
-    
   ],
-  "clientes": []
+  "clientes": [
+    {
+      "nomeCompleto": "Wallace Gabriel Da Silva Bogniotti",
+      "cpf": "096.668.979-89",
+      "dataNascimento": "2002-10-09",
+      "email": "wallace.gabriel.bog@gmail.com",
+      "telefone": "44991325477",
+      "logradouro": "Rua Talibio Lourenço",
+      "numero": "3619",
+      "complemento": "Casa",
+      "bairro": "Jardim Das Garças",
+      "cidade": "Umuarama",
+      "estado": "PR",
+      "id": 1
+    }
+  ]
 }

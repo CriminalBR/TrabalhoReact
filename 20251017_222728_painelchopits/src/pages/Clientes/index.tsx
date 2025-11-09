@@ -4,7 +4,6 @@ import { FaPen, FaTrash } from 'react-icons/fa'
 import { useNavigate } from 'react-router-dom'
 import { Loading } from '../../components/Loading';
 import { Toast } from '../../components/Toast';
-// Importamos o hook de verificação do token, assumindo que Clientes é uma rota protegida
 import { verificaTokenExpirado } from '../../service/token';
 
 // Interface para definir a estrutura de dados do Cliente
@@ -52,7 +51,7 @@ export const Clientes = () => {
 
     // Efeito para carregar os clientes ao iniciar a página e verificar o token
     useEffect(() => {
-        // Verifica se o usuário está logado (lógica similar à página de Usuários)
+        // Verifica se o usuário está logado 
         let lsToken = localStorage.getItem('chopts:token')
         let token: any = null;
 

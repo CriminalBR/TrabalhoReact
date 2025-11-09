@@ -120,7 +120,7 @@ export default function GerenciarClientes() {
                 ref={refForm}
                 onSubmit={submitForm}
             >
-                {/* --- Dados Pessoais --- */}
+                
                 <div className="col-md-6">
                     <label htmlFor="nomeCompleto" className="form-label">Nome Completo</label>
                     <input type="text" className="form-control" id="nomeCompleto" required />
@@ -139,7 +139,7 @@ export default function GerenciarClientes() {
                     <div className="invalid-feedback">A data é obrigatória.</div>
                 </div>
 
-                {/* --- Contato --- */}
+                
                  <div className="col-md-6">
                     <label htmlFor="email" className="form-label">Email</label>
                     <input type="email" className="form-control" id="email" required />
@@ -152,7 +152,7 @@ export default function GerenciarClientes() {
                     <div className="invalid-feedback">O telefone é obrigatório.</div>
                 </div>
                 
-                {/* --- Endereço --- */}
+               
                 <div className="col-md-5">
                     <label htmlFor="logradouro" className="form-label">Logradouro</label>
                     <input type="text" className="form-control" id="logradouro" required />
@@ -188,7 +188,7 @@ export default function GerenciarClientes() {
                     <div className="invalid-feedback">O estado (UF) é obrigatório.</div>
                 </div>
 
-                {/* --- Botões --- */}
+                
                 <div className="col-md-12 mt-3">
                     <button
                         className="btn btn-secondary"
