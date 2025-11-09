@@ -1,0 +1,11 @@
+{
+  "users": [
+    {
+      "email": "fabricio@brasil.com",
+      "password": "$2a$10$R1Og/hQ2YdhQpJZ9k5MX8uvybnRP2JKfAGoay1KkSfQjE/XN8Q2XK",
+      "nome": "Fabricio",
+      "permissoes": "admin",
+      "id": 9
+    }
+  ]
+}
